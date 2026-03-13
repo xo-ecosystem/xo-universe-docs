@@ -1,7 +1,11 @@
 site_name: XO Universe
 site_description: XO Trust Continuum Documentation
+site_url: https://docs.xo.center
 
 docs_dir: docs
+
+repo_name: xo-ecosystem/xo-universe-docs
+repo_url: https://github.com/xo-ecosystem/xo-universe-docs
 
 theme:
   name: material
@@ -9,6 +13,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - toc.integrate
     - content.code.copy
@@ -31,7 +36,8 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
-  - Universe Map: xo-universe-map.md
+  - What is XO: what-is-xo.md
+  - XO Universe Map: xo-universe-map.md
   - Domain Constellation: domain-constellation.md
   - Architecture: architecture.md
   - Seven Pillars: seven-pillars.md
