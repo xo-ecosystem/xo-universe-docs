@@ -1,8 +1,9 @@
-
-
 # Seven Pillars
 
 The XO ecosystem is guided by seven foundational pillars. Together they define the trust continuum and explain how different parts of the system work together.
+
+!!! tip
+    For the functional system view behind these pillars, also see the [Architecture](architecture.md) and [XO Universe Map](xo-universe-map.md) pages.
 
 ## 1. Bridge
 
@@ -69,3 +70,6 @@ In addition to the seven pillars, XO also depends on supporting utilities that h
 - **Agent** as the workflow and coordination layer
 
 Together, the pillars and utilities form a modular system that can scale from storytelling and collectibles to broader trust infrastructure.
+
+!!! note
+    The pillars describe the conceptual foundation of XO. The public docs are gradually connecting those concepts to concrete modules, domains, and activation flows.

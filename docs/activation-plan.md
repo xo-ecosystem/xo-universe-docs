@@ -1,8 +1,11 @@
-
-
+`docs/activation-plan.md`
+```md
 # Activation Plan
 
 This page outlines the current short-term activation strategy for XO.
+
+!!! note
+    The activation plan is deliberately staged. XO should grow in public only as fast as it can remain understandable and credible.
 
 ## Goal
 
@@ -66,3 +69,6 @@ The documentation, visuals, domain constellation, and activated flows should rei
 ## Working rule
 
 XO should grow in public only as fast as it can remain understandable.
+
+!!! tip
+    Read this together with [System State](system-state.md) to connect current reality with the next steps, and with [XO Universe Map](xo-universe-map.md) to see where activation flows sit in the larger system.

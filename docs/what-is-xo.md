@@ -1,10 +1,16 @@
-
-
 # What Is XO?
 
 XO is a modular ecosystem for verifiable digital and physical trust.
 
 At its core, XO connects digital artifacts, public stories, identity, and real-world verification into one evolving system. Instead of treating content, drops, credentials, and community activity as separate silos, XO links them into a shared trust fabric.
+
+!!! tip
+    If you want the **fastest visual overview** first, start with:
+
+    - [XO Universe Map](xo-universe-map.md)
+    - [XO Domain Constellation](domain-constellation.md)
+
+    Then return here for the plain-language explanation.
 
 ## Core formula
 
@@ -38,3 +44,6 @@ XO aims to make it easier to:
 XO is not just a single app. It is a system made of interoperable parts.
 
 Some parts are infrastructure, some are publishing layers, some are activation layers, and some are future-facing identity and exchange mechanisms. Together they form a trust continuum that can grow from small creator workflows to broader community and institutional use.
+
+!!! note
+    XO is being documented and activated in stages. The public docs intentionally focus first on the clearest and most explainable parts of the system.

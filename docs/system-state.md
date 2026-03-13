@@ -1,8 +1,9 @@
-
-
 # System State
 
 This page describes the current state of the XO project in honest, practical terms.
+
+!!! note
+    XO has already moved beyond pure concept. The current challenge is not inventing more pieces, but clarifying, stabilizing, and activating the strongest ones.
 
 ## Current position
 
@@ -51,3 +52,6 @@ That means:
 ## Practical conclusion
 
 XO is in a transition phase: beyond concept, not yet fully consolidated, but already rich enough to activate publicly in stages.
+
+!!! tip
+    Pair this page with the [Activation Plan](activation-plan.md) to see how the current system state translates into the next public steps.
