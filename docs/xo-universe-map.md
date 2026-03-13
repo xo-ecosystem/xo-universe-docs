@@ -1,5 +1,3 @@
-
-
 # XO Universe Map
 
 This page provides a **visual overview of the XO ecosystem** and how its modules connect into a single trust continuum.
@@ -22,30 +20,35 @@ XO is not designed as a monolithic platform. Instead it is a **network of cooper
 %% XO Trust Continuum lifecycle diagram
 flowchart LR
 
-Vault[Vault\nSeal + Store]
-Pulse[Pulse\nPublish]
-Drops[Drops\nArtifacts]
-Traits[Traits\nEvolution]
-Ledger[Ledger\nPublic Record]
-Digest[Digest\nDaily Memory]
-Bridge[Bridge\nPhysical Link]
-Agent[Agent\nAutomation]
+subgraph Core[Core Trust Layer]
+    Vault[Vault\nSeal + Store]
+    Pulse[Pulse\nPublish]
+    Agent[Agent\nAutomation]
+end
+
+subgraph Activation[Activation Layer]
+    Drops[Drops\nArtifacts]
+    Traits[Traits\nEvolution]
+    Bridge[Bridge\nPhysical Link]
+end
+
+subgraph Public[Public Memory Layer]
+    Ledger[Ledger\nPublic Record]
+    Digest[Digest\nDaily Memory]
+end
 
 Vault --> Pulse
 Pulse --> Drops
 Drops --> Traits
 Traits --> Ledger
-
 Pulse --> Digest
-
 Agent --> Vault
 Agent --> Pulse
 Agent --> Drops
-
 Bridge --> Ledger
 ```
 
-This diagram represents the **core lifecycle of an artifact inside the XO universe**.
+This diagram represents the **core lifecycle of an artifact inside the XO universe**, while also grouping the system into three readable zones: the core trust layer, the activation layer, and the public memory layer.
 
 ---
 

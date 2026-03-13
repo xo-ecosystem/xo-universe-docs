@@ -1,5 +1,3 @@
-
-
 # XO Domain Constellation
 
 The XO ecosystem is supported by a large constellation of domains. Each domain acts like a **planet or gateway** that exposes a specific part of the XO trust continuum.
@@ -22,28 +20,36 @@ Rather than one central platform, XO is intentionally distributed across multipl
 %% XO domain constellation overview
 flowchart TD
 
-Vault[xo-vault.com]
-Pulse[xopulse.com]
-Ledger[xoledger.com]
-Traits[xotraits.com]
-Seals[xoseals.com]
-Center[xo.center]
-Exchange[21xo.exchange]
-Community[xo.community]
-Digest[xo-digest.com]
+subgraph Core[Core Infrastructure]
+    Vault[xo-vault.com]
+    Pulse[xopulse.com]
+    Ledger[xoledger.com]
+    Center[xo.center]
+end
 
+subgraph Identity[Identity + Evolution]
+    Traits[xotraits.com]
+    Seals[xoseals.com]
+    Community[xo.community]
+end
+
+subgraph Activation[Activation + Exchange]
+    Exchange[21xo.exchange]
+    Digest[xo-digest.com]
+end
+
+Center --> Vault
+Center --> Community
 Vault --> Pulse
 Pulse --> Digest
 Pulse --> Seals
 Seals --> Traits
 Traits --> Ledger
 Ledger --> Exchange
-Center --> Vault
-Center --> Community
 Community --> Pulse
 ```
 
-Each node represents a **public entry point** into a module of the XO universe.
+Each node represents a **public entry point** into a module of the XO universe, while the grouped sections make it easier to distinguish the infrastructure, identity, and activation domains at a glance.
 
 ---
 
