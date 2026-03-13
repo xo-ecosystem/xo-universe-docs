@@ -1,5 +1,3 @@
-
-
 # XO Universe
 
 Welcome to the public documentation surface for **XO**, a modular trust continuum designed to connect digital artifacts, stories, identity, and real‑world verification.
@@ -7,6 +5,14 @@ Welcome to the public documentation surface for **XO**, a modular trust continuu
 This documentation explains how the XO ecosystem works, what already exists today, and how the different modules connect into a larger system.
 
 XO is not a single application. It is a **continuum of interoperable modules** that together enable verifiable trust across digital and physical environments.
+
+!!! tip
+    If you prefer a **visual introduction**, start with:
+
+    - [XO Universe Map](xo-universe-map.md)
+    - [Domain Constellation](domain-constellation.md)
+
+    These pages explain the structure of the XO ecosystem in diagrams before diving into the detailed documentation.
 
 ---
 
@@ -108,6 +114,9 @@ Start with these sections:
 - [Architecture](architecture.md)
 - [Seven Pillars](seven-pillars.md)
 - [Activation Plan](activation-plan.md)
+
+!!! note
+    XO documentation is being published gradually. The public docs focus first on the clearest architectural components of the ecosystem while other experimental modules remain private until they stabilize.
 
 ---
 
