@@ -1,6 +1,8 @@
 site_name: XO Universe
 site_description: XO Trust Continuum Documentation
 
+docs_dir: docs
+
 theme:
   name: material
   features:
@@ -28,10 +30,10 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - Overview: docs/index.md
-  - Universe Map: docs/xo-universe-map.md
-  - Domain Constellation: docs/domain-constellation.md
-  - Architecture: docs/architecture.md
-  - Seven Pillars: docs/seven-pillars.md
-  - System State: docs/system-state.md
-  - Activation Plan: docs/activation-plan.md
+  - Overview: index.md
+  - Universe Map: xo-universe-map.md
+  - Domain Constellation: domain-constellation.md
+  - Architecture: architecture.md
+  - Seven Pillars: seven-pillars.md
+  - System State: system-state.md
+  - Activation Plan: activation-plan.md
