@@ -1,0 +1,37 @@
+site_name: XO Universe
+site_description: XO Trust Continuum Documentation
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - mermaid2
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Overview: docs/index.md
+  - Universe Map: docs/xo-universe-map.md
+  - Domain Constellation: docs/domain-constellation.md
+  - Architecture: docs/architecture.md
+  - Seven Pillars: docs/seven-pillars.md
+  - System State: docs/system-state.md
+  - Activation Plan: docs/activation-plan.md

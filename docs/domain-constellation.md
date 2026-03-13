@@ -95,10 +95,10 @@ Most platforms concentrate everything into a single website.
 
 XO instead distributes capabilities across domains because:
 
-• systems become easier to evolve independently
-• public trust improves when roles are clearly separated
-• modules can scale without breaking the entire system
-• experiments can launch without risking the core
+- systems become easier to evolve independently
+- public trust improves when roles are clearly separated
+- modules can scale without breaking the entire system
+- experiments can launch without risking the core
 
 This approach mirrors how the internet itself works — a **network of specialized nodes rather than a single monolith**.
 
@@ -108,11 +108,11 @@ This approach mirrors how the internet itself works — a **network of specializ
 
 Over time the constellation will expand with additional domains for:
 
-• marketplaces
-• identity layers
-• games and lore
-• community coordination
-• physical‑digital bridge systems
+- marketplaces
+- identity layers
+- games and lore
+- community coordination
+- physical-digital bridge systems
 
 The goal is a **living universe of interconnected services** where each domain plays a clear role in the larger trust continuum.
 
