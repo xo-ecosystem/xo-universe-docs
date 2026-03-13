@@ -91,11 +91,24 @@ theme:
     - navigation.tabs
     - navigation.sections
     - content.code.copy
+    - toc.integrate
+    - content.tabs.link
+    - navigation.top
 
 plugins:
   - search
   - mermaid2
   - glightbox
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
 ```
 
 These options enable:
@@ -107,6 +120,62 @@ These options enable:
 - interactive diagrams and images
 
 With this configuration the docs will render much closer to a **production documentation portal** rather than a simple markdown repository.
+
+## One high-impact polish trick
+
+A very effective MkDocs Material pattern used in polished product docs is the combination of:
+
+- integrated page table of contents
+- tabbed content blocks
+- callout boxes for guidance, warnings, and next steps
+- back-to-top navigation
+
+These features make a small documentation set feel much more like a **designed product surface**.
+
+### Why this works so well
+
+It improves the experience immediately without requiring a redesign:
+
+- readers can scan pages faster
+- long pages feel structured instead of dense
+- important notes stand out visually
+- command examples and alternatives can sit side by side in tabs
+
+### Example page patterns
+
+Use callouts for emphasis:
+
+```md
+!!! tip
+    Start with the [XO Universe Map](docs/xo-universe-map.md) if you want the fastest visual overview.
+
+!!! note
+    XO is being published gradually. Public docs focus on the clearest modules first.
+```
+
+Use tabs for options:
+
+```md
+=== "GitHub"
+
+    Read the docs directly in the repository.
+
+=== "MkDocs Site"
+
+    Run `mkdocs serve` locally for the full navigation and visual experience.
+```
+
+### Recommended effect for XO
+
+For XO specifically, this means the docs can feel much closer to a **Stripe- or Cloudflare-style documentation portal** with very little work:
+
+- strong left navigation
+- clean in-page table of contents
+- highlighted callouts
+- polished side-by-side option blocks
+- easy scrolling back to the top
+
+That is one of the highest-impact improvements you can make early, before investing time in custom theming.
 
 ---
 
