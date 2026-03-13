@@ -1,3 +1,10 @@
 .history/
 .DS_Store
 node_modules/.venv-docs/
+.venv-docs/
+.vscode/
+.history/
+.DS_Store
+node_modules/
+.venv-docs/
+.vscode/
