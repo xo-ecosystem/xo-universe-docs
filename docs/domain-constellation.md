@@ -4,13 +4,22 @@
 
 The XO ecosystem is supported by a large constellation of domains. Each domain acts like a **planet or gateway** that exposes a specific part of the XO trust continuum.
 
+
 Rather than one central platform, XO is intentionally distributed across multiple domains. This keeps the system modular, resilient, and easier to evolve over time.
+
+!!! tip
+    If you want to understand the **functional architecture behind these domains**, start with:
+
+    - [XO Universe Map](xo-universe-map.md)
+
+    That page explains how Vault, Pulse, Drops, Traits, and Ledger interact inside the trust continuum.
 
 ---
 
 # Constellation Overview
 
 ```mermaid
+%% XO domain constellation overview
 flowchart TD
 
 Vault[xo-vault.com]

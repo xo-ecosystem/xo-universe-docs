@@ -4,13 +4,22 @@
 
 This page provides a **visual overview of the XO ecosystem** and how its modules connect into a single trust continuum.
 
+
 XO is not designed as a monolithic platform. Instead it is a **network of cooperating layers** where each component performs a clear role.
+
+!!! tip
+    For a **domain-level view** of how the ecosystem is exposed publicly, also see:
+
+    - [XO Domain Constellation](domain-constellation.md)
+
+    That page shows how the XO modules map onto the domain architecture of the ecosystem.
 
 ---
 
 # The XO Trust Continuum
 
 ```mermaid
+%% XO Trust Continuum lifecycle diagram
 flowchart LR
 
 Vault[Vault\nSeal + Store]
