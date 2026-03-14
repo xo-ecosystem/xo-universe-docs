@@ -1,52 +1,3 @@
-`docs/xo-universe-map.md`
-```md
-# XO Universe Map
-
-This page provides a **visual overview of the XO ecosystem** and how its modules connect into a single trust continuum.
-
-XO is not designed as a monolithic platform. Instead it is a **network of cooperating layers** where each component performs a clear role.
-
-!!! tip
-    For a **domain-level view** of how the ecosystem is exposed publicly, also see:
-
-    - [XO Domain Constellation](domain-constellation.md)
-
-    That page shows how the XO modules map onto the domain architecture of the ecosystem.
-
----
-
-# The XO Trust Continuum
-
-```mermaid
-%% XO Trust Continuum lifecycle diagram
-flowchart LR
-
-subgraph Core[Core Trust Layer]
-    Vault[Vault\nSeal + Store]
-    Pulse[Pulse\nPublish]
-    Agent[Agent\nAutomation]
-end
-
-subgraph Activation[Activation Layer]
-    Drops[Drops\nArtifacts]
-    Traits[Traits\nEvolution]
-    Bridge[Bridge\nPhysical Link]
-end
-
-subgraph Public[Public Memory Layer]
-    Ledger[Ledger\nPublic Record]
-    Digest[Digest\nDaily Memory]
-end
-
-Vault --> Pulse
-Pulse --> Drops
-Drops --> Traits
-Traits --> Ledger
-Pulse --> Digest
-Agent --> Vault
-Agent --> Pulse
-Agent --> Drops
-Bridge --> Ledger
 # XO Universe Map
 
 This page provides a **visual overview of the XO ecosystem** and how its modules connect into a single trust continuum.
@@ -69,20 +20,20 @@ XO is not designed as a monolithic platform. Instead it is a **network of cooper
 flowchart LR
 
 subgraph Core[Core Trust Layer]
-    Vault[Vault\nSeal + Store]
-    Pulse[Pulse\nPublish]
-    Agent[Agent\nAutomation]
+    Vault[Vault<br/>Seal + Store]
+    Pulse[Pulse<br/>Publish]
+    Agent[Agent<br/>Automation]
 end
 
 subgraph Activation[Activation Layer]
-    Drops[Drops\nArtifacts]
-    Traits[Traits\nEvolution]
-    Bridge[Bridge\nPhysical Link]
+    Drops[Drops<br/>Artifacts]
+    Traits[Traits<br/>Evolution]
+    Bridge[Bridge<br/>Physical Link]
 end
 
 subgraph Public[Public Memory Layer]
-    Ledger[Ledger\nPublic Record]
-    Digest[Digest\nDaily Memory]
+    Ledger[Ledger<br/>Public Record]
+    Digest[Digest<br/>Daily Memory]
 end
 
 Vault --> Pulse
@@ -136,7 +87,7 @@ This architecture forms what XO calls the **Trust Continuum**.
 You can think of XO as a **living universe of layers**:
 
 | Layer | Role |
-|------|------|
+|-------|------|
 | Vault | Source of truth and signatures |
 | Pulse | Communication layer |
 | Drops | Distribution mechanism |

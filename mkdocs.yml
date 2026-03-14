@@ -2,22 +2,16 @@ site_name: XO Universe
 site_description: XO Trust Continuum Documentation
 site_url: https://docs.xo.center
 
-docs_dir: docs
-
-repo_name: xo-ecosystem/xo-universe-docs
-repo_url: https://github.com/xo-ecosystem/xo-universe-docs
-
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - toc.integrate
     - content.code.copy
+    - toc.integrate
     - content.tabs.link
+    - navigation.top
 
 plugins:
   - search
@@ -29,14 +23,21 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
 
+docs_dir: docs
+strict: true
+
 nav:
-  - Overview: index.md
-  - What is XO: what-is-xo.md
+  - Home: index.md
+  - What Is XO: what-is-xo.md
   - XO Universe Map: xo-universe-map.md
   - Domain Constellation: domain-constellation.md
   - Architecture: architecture.md
