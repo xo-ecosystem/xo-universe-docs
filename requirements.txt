@@ -3,3 +3,4 @@ mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-glightbox
 pymdown-extensions
+PyYAML
