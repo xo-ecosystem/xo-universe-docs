@@ -164,7 +164,6 @@ flowchart TD
 This pipeline links the **physical creation event** to a **verifiable digital record** in the XO ecosystem.
 
 ---
----
 
 # The Growing Constellation
 
