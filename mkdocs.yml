@@ -44,7 +44,5 @@ nav:
   - Seven Pillars: seven-pillars.md
   - System State: system-state.md
   - Activation Plan: activation-plan.md
-
-nav:
   - Drops:
-      - Message Bottle: docs/drops/message-bottle.md
+      - Message Bottle: drops/message-bottle.md
