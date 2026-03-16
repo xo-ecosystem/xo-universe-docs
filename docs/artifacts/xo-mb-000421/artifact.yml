@@ -1,0 +1,22 @@
+id: xo-mb-000421
+artifact_type: message_bottle
+series: genesis
+edition: 1
+status: sealed
+created_at: 2026-03-16
+creator: XO
+
+message:
+  file: source/message.txt
+  encoding: utf-8
+
+media:
+  renders: []
+  captures: []
+
+verification:
+  signature: pending
+  hash: pending
+
+notes:
+  file: source/notes.md
