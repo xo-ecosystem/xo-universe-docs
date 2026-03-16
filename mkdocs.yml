@@ -46,3 +46,5 @@ nav:
   - Activation Plan: activation-plan.md
   - Drops:
       - Message Bottle: drops/message-bottle.md
+  - Artifacts:
+      - "XO Message Bottle #000421": artifacts/xo-mb-000421/index.md
